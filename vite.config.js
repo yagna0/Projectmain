@@ -6,8 +6,8 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: "index.html",
-        project1: "public/project1/index.html",
-        project2: "public/project2/index.html",
+        project1: "project1/index.html",
+        project2: "project2/index.html",
       },
     },
   },
