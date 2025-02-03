@@ -1,13 +1,15 @@
-import { defineConfig } from "vite";
+import { defineConfig } from 'vite';
+import path from 'path';
 
 export default defineConfig({
-  base: "/projectmain/",
+  base: '/projectmain/', // Change this to match your GitHub Pages repo name
   build: {
+    outDir: 'dist',
     rollupOptions: {
       input: {
-        main: "index.html",
-        project1: "project1/index.html",
-        project2: "project2/index.html",
+        main: path.resolve(__dirname, 'index.html'), // Main entry point
+        project1: path.resolve(__dirname, 'project1/index.html'), // Additional pages
+        project2: path.resolve(__dirname, 'project2/index.html'), 
       },
     },
   },
