@@ -4,7 +4,7 @@ import path from 'path';
 export default defineConfig({
   base: '/projectmain/', // Change this to match your GitHub Pages repo name
   build: {
-    outDir: 'dist',
+    outDir: 'docs',
     rollupOptions: {
       input: {
         main: path.resolve(__dirname, 'index.html'), // Main entry point
