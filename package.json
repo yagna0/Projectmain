@@ -10,5 +10,24 @@
   },
   "devDependencies": {
     "vite": "^6.0.5"
-  }
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "main": "lodash.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yagna0/Projectmain.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yagna0/Projectmain/issues"
+  },
+  "homepage": "https://github.com/yagna0/Projectmain#readme",
+  "description": ""
 }
